@@ -7,7 +7,7 @@ function isopen(character) {
     return ['(', '{', '['].includes(character);
 }
 function closes(characterA, characterB) {
-    var pairs = { '(': ')', '{': '}', '[': ']' };
+    var pairs = { '(': ')', '{': '}', '[': ']', };
     return pairs[characterA] == characterB;
 }
 function verify(text) {

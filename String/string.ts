@@ -5,6 +5,8 @@ let test1 = '(())';
 let test2 = '({()()}[()])';
 let test3 = '{[}()]';
 
+
+
 function isopen(character: string){
     return ['(', '{','['].includes(character)
 }
