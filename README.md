@@ -1,1 +1,1 @@
-JavaScript and TypeScript
+JavaScript and TypeScript learning programs
